@@ -1,0 +1,44 @@
+
+.app{
+    width: 80%;
+    min-height: 600px;
+    margin: auto;
+    border: 1px solid;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 10px;
+}
+
+li{
+    margin: 5px;
+}
+li a{
+    text-decoration: none;
+    color:orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 5px;
+}
+li a:hover{
+    
+    color:white;
+    background-color:orange ;
+}
+.active{
+    color:white;
+    background-color:orange ;
+
+}
+
+td img{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+div img{
+    width: 80px;
+    height: 100px;
+}
